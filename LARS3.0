@@ -70,7 +70,7 @@ ele = WebDriverWait(driver, 60).until(lambda _: driver.find_element(By.XPATH, '/
 time.sleep(1)
 ele.click()
 
-#选择浮山校区
+#选择校区
 ele1 = WebDriverWait(driver, 15).until(lambda _: driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div[3]/div[1]/ul/li[2]/ul/div/li[1]'))
 time.sleep(1)
 ele1.click()
