@@ -70,7 +70,7 @@ else:
   timelocation = '/html/body/div[6]/table/tbody/tr[' + str(r) + ']/td[' + str(c) + ']/a'
 
 
-#打开青岛大学图书馆预约系统
+#open图书馆预约系统
 driver.get('webaddress')
 '''
 考虑到网页打开的速度取决于每个人的电脑和网速，
