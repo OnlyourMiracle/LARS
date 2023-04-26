@@ -59,8 +59,8 @@ time.sleep(5)
 #在主页面点击登录按钮，进入登录页面
 #driver.find_element_by_xpath('//*[@id="username"]').click()
 #输入账号和密码
-driver.find_element_by_xpath('//*[@id="username"]').send_keys('XXX')
-driver.find_element_by_xpath('//*[@id="password"]').send_keys('XXX')
+driver.find_element_by_xpath('//*[@id="username"]').send_keys('username')
+driver.find_element_by_xpath('//*[@id="password"]').send_keys('password')
 #点击登录按钮
 driver.find_element_by_xpath('//*[@id="casLoginForm"]/div[4]/div/button').click()
 time.sleep(5)
